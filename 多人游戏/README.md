@@ -1,12 +1,15 @@
 ﻿&nbsp;&nbsp;视频地址：[多人聊天室][1]
 
 &nbsp;&nbsp;游戏中有两个场景：Offline和Online。分别管理游戏连接前、后的界面。
+
 ![场景][2]
 
 &nbsp;&nbsp;NetworkManager对象中放置了两个组件。Network Manager HUD实现了游戏连接前的GUI；Network Manager 用于网络管理，在该组件中确定游戏连接前后的场景以及玩家预制。
+
 ![NetworkManager][3]
 
 &nbsp;&nbsp;在玩家预制中添加Network Identity组件，设置为只允许本地客户端控制。
+
 ![此处输入图片的描述][4]
 
 
